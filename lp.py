@@ -1,9 +1,9 @@
-a=int(input())
-if(a%400==0):
+b=int(input())
+if(b%400==0):
     print ("leapyear")
-elif(a%4==0):
+elif(b%4==0):
     print ("leapyear")
-elif(a%100!=0):
+elif(b%100!=0):
     print ("leapyear")
 else:
     print ("not leapyear")
